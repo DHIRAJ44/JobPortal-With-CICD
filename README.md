@@ -63,8 +63,8 @@ Write a shell script to automate the deployment process:
 
 #!/bin/bash
 
-# Step 1: Pull the latest code from GitHub
-git clone https://github.com/your-repo/job-portal.git || (cd job-portal && git pull)
+# Step 1: Pull the latest code from GitHub link
+https://github.com/DHIRAJ44/JobPortal-With-CICD
 
 # Step 2: Build Docker image
 docker build -t job-portal:latest ./job-portal
